@@ -1,3 +1,5 @@
-import num from './test';
+import str from './models/Search';
 
-console.log(`I imported ${num} from another module called test.js!`);
+import { add, multiply, ID } from './views/searchView';
+
+console.log(`Using imported functions! ${add(ID, 2)} and ${multiply(3, 5)}.${str}`);
