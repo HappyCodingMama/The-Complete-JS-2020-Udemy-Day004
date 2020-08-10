@@ -1,1 +1,1 @@
-Failed setting up the configuration
+Configuration Failed.
